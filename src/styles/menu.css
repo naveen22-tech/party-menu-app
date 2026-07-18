@@ -1,0 +1,23 @@
+.menu-page__content {
+  padding-top: 28px;
+  padding-bottom: 60px;
+}
+
+.menu-page__meta {
+  margin-bottom: 16px;
+}
+
+.menu-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+.menu-page__empty {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--color-text-faint);
+  font-size: 15px;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+}

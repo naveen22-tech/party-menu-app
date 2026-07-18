@@ -1,0 +1,8 @@
+.saved-card {
+  cursor: default;
+}
+
+.saved-card__remove {
+  margin: 0 16px 16px;
+  align-self: flex-start;
+}
